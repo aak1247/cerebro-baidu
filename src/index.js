@@ -21,6 +21,6 @@ export const fn = ({ term, actions, display }) => {
     order,
     title: `Search web for ${term}`,
     onSelect: () => search(term),
-    getPreview: () => <Preview />
+    // getPreview: () => <Preview />
   })
 }
