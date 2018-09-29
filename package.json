@@ -1,6 +1,14 @@
 {
   "name": "cerebro-baidu",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "author": {
+    "name": "aak1247",
+    "email": "aak1247@126.com",
+    "url": "aak1247.me"
+  },
+  "description": "search keywords with baidu in cerebro",
+  "license": "MIT",
+  "repository": "aak1247/cerebro-baidu",
   "dependencies": {
     "cerebro-tools": "^0.1.8",
     "cerebro-ui": "^0.0.16"
@@ -11,7 +19,8 @@
   "main": "dist/index.js",
   "keywords": [
     "cerebro",
-    "cerebro-plugin"
+    "cerebro-plugin",
+    "baidu"
   ],
   "scripts": {
     "start": "cerebro-scripts start",
